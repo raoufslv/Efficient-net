@@ -1,14 +1,8 @@
 # Repo-specific GitIgnore ----------------------------------------------------------------------------------------------
-*.jpg
-*.jpeg
-*.png
 *.bmp
 *.tif
 *.tiff
 *.heic
-*.JPG
-*.JPEG
-*.PNG
 *.BMP
 *.TIF
 *.TIFF
@@ -34,8 +28,6 @@ data/images/*
 !data/images/bus.jpg
 !data/*.sh
 
-results*.csv
-
 # Datasets -------------------------------------------------------------------------------------------------------------
 coco/
 coco128/
@@ -47,8 +39,6 @@ VOC/
 !targets*.mat
 
 # Neural Network weights -----------------------------------------------------------------------------------------------
-*.weights
-*.pt
 *.pb
 *.onnx
 *.engine
